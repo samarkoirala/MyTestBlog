@@ -12,7 +12,7 @@ namespace MyBlog
 {
     public class EmailService : IIdentityMessageService
     {
-        public Task SendAsync(IdentityMessage message)fggb
+        public Task SendAsync(IdentityMessage message)sdfgs
         {
             // Plug in your email service here to send an email.
             return Task.FromResult(0);
