@@ -10,7 +10,7 @@ namespace MyBlog
     public class BundleConfig
     {
         // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkID=303951
-        public static void RegisterBundles(BundleCollection bundles)rthreth
+        public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/WebFormsJs").Include(
                             "~/Scripts/WebForms/WebForms.js",
